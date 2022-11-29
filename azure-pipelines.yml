@@ -20,7 +20,7 @@ steps:
     command: 'custom'
     customCommand: 'npm build'
 - task: ArchiveFiles@2
-      inputs:
+  inputs:
         rootFolderOrFile: '$(Build.SourcesDirectory)'
         includeRootFolder: true
         archiveType: 'zip'
