@@ -14,7 +14,7 @@
 
 Install node modules
 
-#### `npm install`
+#### `npm install` or use `npm i`
 
 In the project directory, you can run:
 
